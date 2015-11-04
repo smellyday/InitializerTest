@@ -14,6 +14,7 @@
 		695A0D251BE9E2380078DDD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695A0D231BE9E2380078DDD4 /* LaunchScreen.storyboard */; };
 		695A0D301BE9E2380078DDD4 /* InitializerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A0D2F1BE9E2380078DDD4 /* InitializerTestTests.swift */; };
 		695A0D3B1BE9E2380078DDD4 /* InitializerTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A0D3A1BE9E2380078DDD4 /* InitializerTestUITests.swift */; };
+		695A0D491BE9F8010078DDD4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 695A0D481BE9F8010078DDD4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		695A0D361BE9E2380078DDD4 /* InitializerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InitializerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		695A0D3A1BE9E2380078DDD4 /* InitializerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerTestUITests.swift; sourceTree = "<group>"; };
 		695A0D3C1BE9E2380078DDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695A0D481BE9F8010078DDD4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		695A0D0E1BE9E2380078DDD4 = {
 			isa = PBXGroup;
 			children = (
+				695A0D481BE9F8010078DDD4 /* README.md */,
 				695A0D191BE9E2380078DDD4 /* InitializerTest */,
 				695A0D2E1BE9E2380078DDD4 /* InitializerTestTests */,
 				695A0D391BE9E2380078DDD4 /* InitializerTestUITests */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695A0D491BE9F8010078DDD4 /* README.md in Sources */,
 				695A0D1D1BE9E2380078DDD4 /* ViewController.swift in Sources */,
 				695A0D1B1BE9E2380078DDD4 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				695A0D411BE9E2380078DDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		695A0D421BE9E2380078DDD4 /* Build configuration list for PBXNativeTarget "InitializerTestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				695A0D441BE9E2380078DDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		695A0D451BE9E2380078DDD4 /* Build configuration list for PBXNativeTarget "InitializerTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				695A0D471BE9E2380078DDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
